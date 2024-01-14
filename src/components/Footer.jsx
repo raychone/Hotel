@@ -5,7 +5,7 @@ import logoWhite from "../assets/img/logoTextLight.png";
 const Footer = () => {
   return (
     <footer className="bg-primary py-12">
-      <div className="container mx-auto text-white flex  justify-between items-center">
+    <div className="container mx-auto text-white flex flex-col lg:flex-row justify-between items-center">
         {/* logo */}
         <a href="/">
           <img
